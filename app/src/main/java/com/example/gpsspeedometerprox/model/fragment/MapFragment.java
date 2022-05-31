@@ -22,8 +22,7 @@ public class MapFragment extends BaseFragment {
 
     @Override
     protected void initEvent() {
-        Toast.makeText(getContext(), "prox", Toast.LENGTH_SHORT).show();
-    }
+     }
 
     @Override
     protected int getLayoutId() {

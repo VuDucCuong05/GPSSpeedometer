@@ -10,12 +10,15 @@
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout-land/fragment_digital.xml" value="0.1728395061728395" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout-land/fragment_map.xml" value="0.1728395061728395" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout-land/layout_home.xml" value="0.18" />
+        <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/activity_main.xml" value="0.16168478260869565" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/fragment_analog.xml" value="0.1641337386018237" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/fragment_digital.xml" value="0.1641337386018237" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/fragment_map.xml" value="0.16168478260869565" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/fragment_setting.xml" value="0.1641337386018237" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/layout_custom_notification.xml" value="0.22" />
+        <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/layout_header_nav.xml" value="0.16168478260869565" />
         <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/layout_home.xml" value="0.1641337386018237" />
+        <entry key="..\:/GpsSpeedometerProX/app/src/main/res/layout/layout_navigation_drawer.xml" value="0.16168478260869565" />
       </map>
     </option>
   </component>

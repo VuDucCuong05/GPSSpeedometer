@@ -188,7 +188,7 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     protected int getLayoutId() {
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         showHideFullScreen();
         return R.layout.layout_home;
     }
