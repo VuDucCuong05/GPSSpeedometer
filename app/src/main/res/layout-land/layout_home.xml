@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <FrameLayout
+        android:id="@+id/layout_amod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_amod" />
+
+    <ImageView
+        android:id="@+id/img_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_amod"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:src="@drawable/ic_setting" />
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/img_turm_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_amod"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_turm_screen" />
+
+    <TextView
+        android:id="@+id/tv_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_amod"
+        android:layout_toLeftOf="@id/tv_globe"
+        android:drawableLeft="@drawable/ic_gps"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="60dp"
+        android:text="100%"
+        android:textColor="@color/text"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv_globe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_amod"
+        android:layout_toLeftOf="@id/img_turm_screen"
+        android:drawableLeft="@drawable/ic_globe"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:text="8/8"
+        android:textColor="@color/text"
+        android:textSize="16dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_background_bottom_bt2"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorColor="@color/text"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorGravity="top"
+        app:tabInlineLabel="true"
+        app:tabMinWidth="20dp"
+        app:tabMode="auto"
+        app:tabPaddingEnd="9dp"
+        app:tabPaddingStart="9dp"
+        app:tabSelectedTextColor="@color/text"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        app:tabTextColor="@color/text_xam" />
+
+    <FrameLayout
+        android:id="@+id/layout_fragment_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

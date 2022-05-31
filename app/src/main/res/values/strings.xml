@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GpsSpeedometerProX</string>
+    <string name="tv_avp_speed">Avg Speed</string>
+    <string name="tv_max_speed">Max Speed</string>
+    <string name="tv_duration">Duration</string>
+    <string name="tv_distance">Distance</string>
+    <string name="tv_avp_speed_">Avg Speed: </string>
+    <string name="tv_max_speed_">Max Speed: </string>
+    <string name="tv_duration_">Duration: </string>
+    <string name="tv_distance_">Distance: </string>
+    <string name="tv_start_trip">START TRIP</string>
+    <string name="tv_analog">Analog</string>
+    <string name="tv_digital">Diagital</string>
+    <string name="tv_map">Map</string>
+    <string name="tv_resume">RESUME</string>
+    <string name="tv_pasu">PAUSE</string>
+    <string name="tv_stop">STOP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
